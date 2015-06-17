@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Burner Box",
-  "description": "Description here...",
+  "description": "A Chrome extension for Cloud at Cost (cloudatcost.com). [Still under early development]",
   "version": "0.1",
   "omnibox": { "keyword" : "bbox" },
   "options_page": "html/options.html",
@@ -22,11 +22,6 @@
   },
 
   "permissions": [
-    "activeTab",
-    "tabs",
-    "pageCapture",
-    "webRequest",
-    "webRequestBlocking",
     "storage",
     "<all_urls>"
   ]
