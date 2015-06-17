@@ -1,0 +1,33 @@
+{
+  "manifest_version": 2,
+  "name": "Burner Box",
+  "description": "Description here...",
+  "version": "0.1",
+  "omnibox": { "keyword" : "bbox" },
+  "options_page": "html/options.html",
+  "options_ui": {
+      "page": "html/options.html",
+      "chrome_style": true
+  },
+
+  "icons": {
+    "16": "img/icon-16.png",
+    "48": "img/icon-48.png",
+    "128": "img/icon-128.png"
+  },
+
+  "browser_action": {
+    "default_icon": "img/icon-48.png",
+    "default_popup": "html/popup.html"
+  },
+
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "pageCapture",
+    "webRequest",
+    "webRequestBlocking",
+    "storage",
+    "<all_urls>"
+  ]
+}
