@@ -2,7 +2,10 @@
   "manifest_version": 2,
   "name": "Burner Box",
   "description": "A Chrome extension for Cloud at Cost (cloudatcost.com). [Still under early development]",
+  "short_name": "Cloud at Cost Extension",
   "version": "0.1",
+  "author": "the4tress",
+  "homepage_url": "https://github.com/the4tress/burner-box",
   "omnibox": { "keyword" : "bbox" },
   "options_page": "html/options.html",
   "options_ui": {
